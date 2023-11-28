@@ -6,15 +6,15 @@ schema_version: 3
 # Telegram settings.
 telegram:
     # Telegram Bot API token.
-    token: ""
+    token: "5882730676:AAGXKEfKajW-WWmRJdKOAUc0PhAtTgS6gSQ"
 
     # The list of Telegram usernames allowed to chat with the bot.
     # If empty, the bot will be available to anyone.
-    usernames: []
+    usernames: ['ArtGaid']
 
     # The list of Telegram usernames allowed to change bot settings.
     # If empty, then no one is allowed to change the settings.
-    admins: []
+    admins: ['ArtGaid']
 
     # The list of Telegram group ids, whose members are allowed to chat with the bot.
     # If empty, the bot will only be available to `telegram.usernames`.
@@ -23,7 +23,7 @@ telegram:
 # OpenAI settings.
 openai:
     # OpenAI API key.
-    api_key: ""
+    api_key: "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"
 
     # OpenAI model name.
     # See https://platform.openai.com/docs/models for description.
